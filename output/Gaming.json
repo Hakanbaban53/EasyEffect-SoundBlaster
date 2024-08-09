@@ -1,6 +1,14 @@
 {
     "output": {
         "blocklist": [],
+        "convolver#0": {
+            "autogain": false,
+            "bypass": false,
+            "input-gain": 0.0,
+            "ir-width": 100,
+            "kernel-name": "SBX Pro Studio (SBX Bass + SBX Crystalizer + SBX Dialog Plus)",
+            "output-gain": 0.0
+        },
         "equalizer#0": {
             "balance": 0.0,
             "bypass": false,
@@ -237,7 +245,8 @@
             "split-channels": false
         },
         "plugins_order": [
-            "equalizer#0"
+            "equalizer#0",
+            "convolver#0"
         ]
     }
 }
