@@ -252,7 +252,7 @@
             "ceil-active": false,
             "harmonics": 4.0000000000000036,
             "input-gain": 0.0,
-            "output-gain": 0.0,
+            "output-gain": -0.5,
             "scope": 2000.0
         },
         "plugins_order": [
