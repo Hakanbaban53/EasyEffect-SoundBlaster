@@ -244,9 +244,43 @@
             },
             "split-channels": false
         },
+        "exciter#0": {
+            "amount": 3.0,
+            "blend": 1.0,
+            "bypass": false,
+            "ceil": 16000.0,
+            "ceil-active": false,
+            "harmonics": 4.0000000000000036,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 2000.0
+        },
         "plugins_order": [
             "equalizer#0",
+            "exciter#0",
+            "stereo_tools#0",
             "convolver#0"
-        ]
+        ],
+        "stereo_tools#0": {
+            "balance-in": 0.0,
+            "balance-out": 0.0,
+            "bypass": false,
+            "delay": 0.0,
+            "input-gain": 0.0,
+            "middle-level": 0.0,
+            "middle-panorama": 0.15999999999999998,
+            "mode": "LR > LR (Stereo Default)",
+            "mutel": false,
+            "muter": false,
+            "output-gain": 0.0,
+            "phasel": false,
+            "phaser": false,
+            "sc-level": 1.0,
+            "side-balance": 0.24999999999999994,
+            "side-level": 5.0,
+            "softclip": false,
+            "stereo-base": 0.0,
+            "stereo-phase": 0.0
+        }
     }
 }
